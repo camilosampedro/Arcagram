@@ -6,8 +6,8 @@
 package interfaz;
 
 import principal.Sistema;
-import Lista.Conjunto;
-import Lista.NodoSimple;
+import lista.Conjunto;
+import lista.NodoSimple;
 import gramatica.Gramatica;
 import gramatica.Produccion;
 import java.awt.Dimension;
@@ -248,6 +248,11 @@ public final class GUIGramatica extends javax.swing.JFrame {
         btnAyuda.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, 0));
         btnAyuda.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/ayuda.png"))); // NOI18N
         btnAyuda.setText("Ayuda");
+        btnAyuda.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAyudaActionPerformed(evt);
+            }
+        });
         menuAyuda.add(btnAyuda);
 
         jMenuBar1.add(menuAyuda);
@@ -362,6 +367,10 @@ public final class GUIGramatica extends javax.swing.JFrame {
         // TODO add your handling code here:
         agregarConjuntoDeSeleccion();
     }//GEN-LAST:event_btnAgregarConjuntoDeSeleccionActionPerformed
+
+    private void btnAyudaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAyudaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnAyudaActionPerformed
 
     /**
      * @param args the command line arguments

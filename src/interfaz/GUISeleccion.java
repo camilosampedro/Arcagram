@@ -5,8 +5,8 @@
  */
 package interfaz;
 
-import Lista.NodoSimple;
-import Lista.Conjunto;
+import lista.NodoSimple;
+import lista.Conjunto;
 import gramatica.Gramatica;
 import java.awt.Dimension;
 import java.awt.Image;

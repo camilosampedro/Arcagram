@@ -5,7 +5,7 @@
  */
 package interfaz;
 
-import Lista.Conjunto;
+import lista.Conjunto;
 import gramatica.NoTerminal;
 import gramatica.Produccion;
 import javax.swing.JOptionPane;

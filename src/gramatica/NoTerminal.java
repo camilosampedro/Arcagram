@@ -6,7 +6,7 @@
 
 package gramatica;
 
-import Lista.Conjunto;
+import lista.Conjunto;
 import java.io.Serializable;
 
 /**

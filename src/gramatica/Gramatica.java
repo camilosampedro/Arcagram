@@ -5,8 +5,8 @@
  */
 package gramatica;
 
-import Lista.Conjunto;
-import Lista.NodoSimple;
+import lista.Conjunto;
+import lista.NodoSimple;
 import java.io.Serializable;
 
 /**
